@@ -50,5 +50,5 @@ function checkStatus(){
         else {
             console.log("[ALERT] ⚠  : No (ON) data found")
         }
-    }, 25 * 1000); //วนเช็คทุก 15 วินาที
+    }, 5 * 1000); //วนเช็คทุก 15 วินาที
 }
