@@ -1,8 +1,11 @@
+
+require("dotenv").config();
+
 module.exports = {
     database: {
         id: 1,
     },
     server: {
-        port: 80,
+        port: process.env.PORT,
     },
 }
