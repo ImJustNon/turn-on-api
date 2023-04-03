@@ -3,6 +3,6 @@ module.exports = {
         id: 1,
     },
     server: {
-        port: 8080,
+        port: 80,
     },
 }
